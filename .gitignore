@@ -1,0 +1,8 @@
+.vscode
+__pycache__
+data/__pycache__
+data/shanghaitech/features
+data/shanghaitech/testing
+data/ucf-crime/features
+logger
+ckpts

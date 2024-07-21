@@ -1,0 +1,35 @@
+device: 'cuda'
+gpu_id: 7
+
+lr: 0.0001
+momentum: 0.9
+weight_decay: 0.0005
+dropout_rate: 0.7
+seed: 1
+
+epochs: 300
+batch_size: 30
+test_freq: 1
+segment_len: 16
+process_len: 32
+feature_dim: 2048
+
+r: 0.4 # abnormal ratio
+h: 0.1 # high confidence normal videos ratio
+
+sample_type: 'uniform'
+
+logger_path: './logger'
+ckpt_path: './ckpts'
+pretrained_path: 
+
+dataset: 'shanghaitech'
+feature_path: './data/shanghaitech/features'
+anno_path: './data/shanghaitech/testing/test_frame_mask'
+training_split: './data/shanghaitech/train_split.txt'
+testing_split: './data/shanghaitech/test_split.txt'
+np_scores_path: './data/shanghaitech/pseudo_label_scores_sh.npy'
+feature_name_end: '_res.npy'
+
+th_auc: 0.75
+th_pr: 0.5
