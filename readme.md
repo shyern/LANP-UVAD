@@ -15,7 +15,7 @@ Platform: NVIDIA GeForce RTX 2080 Ti
 
 ### Setup
 
-- Please download the extracted features for ShanghaiTech and UCF-Crime dataset from links: [**ShanghaiTech features**](), [**UCF-Crime features**](). The above features use the RexNext-101 to extract from this [**repo**](https://github.com/kenshohara/video-classification-3d-cnn-pytorch)
+- Please download the extracted features for ShanghaiTech and UCF-Crime dataset from links: [**ShanghaiTech features**](https://drive.google.com/file/d/1-INdmveP1hcLPbQ7Cen1Buf0jqduIw1C/view?usp=sharing), [**UCF-Crime features**](https://drive.google.com/file/d/1R-kkyPrVnwRtgN8a80ziyq4LXJpN1xsE/view?usp=sharing). The above features use the RexNext-101 to extract from this [**repo**](https://github.com/kenshohara/video-classification-3d-cnn-pytorch)
 
 - Please download ShanghaiTech dataset from this [**repo**](https://svip-lab.github.io/dataset/campus_dataset.html) and put the `testing` folder to `data/shanghaitech/`
 

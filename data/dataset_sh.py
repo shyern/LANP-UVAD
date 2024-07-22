@@ -38,6 +38,7 @@ class Dataset_SH(BaseDataset):
 
     def parser_anno(self):
         # for Shanghai-Tech test and train video annotations.
+        assert os.path.exists(self.anno_path), "The annotation path does not exist."
         anno_paths = glob.glob(os.path.join(self.anno_path, '*.npy'))
         for a_path in anno_paths:
             video_name = a_path.strip().split('/')[-1].split('.')[0]
