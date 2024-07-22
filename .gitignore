@@ -4,5 +4,7 @@ data/__pycache__
 data/shanghaitech/features
 data/shanghaitech/testing
 data/ucf-crime/features
+data/ucf-crime/info_ucf.txt
+data/shanghaitech/info_sh.txt
 logger
 ckpts

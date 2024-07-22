@@ -39,5 +39,10 @@ python main.py --load_config config/config_ucf.yaml
 If you find this repo useful for your research, please consider citing our paper:
 
 ```bibtex
-
+@inproceedings{park2020learning,
+  title={Learning Anomalies with Normality Prior for Unsupervised Video Anomaly Detection},
+  author={Shi, Haoyue and Wang, Le and Zhou, Sanping and Hua, Gang and Tang, Wei},
+  booktitle={European Conference on Computer Vision},
+  year={2024}
+}
 ```
